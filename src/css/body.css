@@ -1,0 +1,58 @@
+.banner{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+}
+.banner-content{
+  text-align: center;
+}
+.banner-icon{
+  display: flex;
+  justify-content: center;
+}
+.banner-icon li{
+  width: 60px;
+  height: 56px;
+  margin: 0 10px;
+}
+.banner-content h1{
+  font-size: 96px;
+  text-align: center;
+}
+.select-dogs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-dogs select{
+  width: 173px;
+  height: 48px;
+  margin-right: 5px;
+}
+.select-dogs button{
+  width: 264px;
+  height: 46px;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.breed-option{
+  display: block;
+}
+.dog-cards-container h1{
+ font-size: 48px;
+}
+.dog-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+.dog-card img{
+  width: 320px;
+  height: 465px;
+  margin-right: 15px;
+  margin-top: 15px;
+}

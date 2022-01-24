@@ -1,0 +1,26 @@
+.header{
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.header-content{
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo{
+  display: flex;
+}
+.header-logo h1{
+  margin-left: 10px;
+}
+.header-date{
+  width: 143px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEF3FB;
+  border-radius: 20px;
+}
