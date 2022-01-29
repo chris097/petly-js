@@ -3,3 +3,25 @@
   margin-top: 10rem;
   border-top: 1px solid #E3E7EE;
 }
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-sectionA{
+  flex: 2;
+}
+.footer-sectionB{
+  flex: 1;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 4rem;
+  margin-top: 1.8rem;
+}
+li{
+  font-size: 14px;
+  font-weight: 500;
+  color: #5F718C;
+  margin: 10px 0;
+}
+

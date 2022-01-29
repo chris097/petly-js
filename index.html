@@ -51,15 +51,22 @@
           <option value="">Sub Breed</option>
         </select>
         <select class="display-number" name="number" id="number">
-          <!-- <option value="">Display Number</option> -->
+          <option value="">Display Number</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
         </select>
       </div>
       <div>
-        <button>Randomize Breed Image Display</button>
+        <button class="random-breed">Randomize Breed Image Display</button>
       </div>
     </div>
     <div class="dog-cards-container">
-      <h1>Hound Breeds</h1>
+      <h1 class='dog-breed'>
+        Affenpinscher Breed
+      </h1>
       <div class="dog-card">
         <!-- <img src="./public/svgs/dog-card1.svg" alt="dog_image"> -->
       </div>
@@ -69,8 +76,38 @@
 
    <!-- Footer -->
    <div class="footer">
-
-    
+    <div class="footer-container container">
+      <div class="footer-sectionA">
+        <div class="header-logo">
+          <img src="./public/svgs/logo.svg" alt="logo_image" />
+          <h1>DogHub</h1>
+        </div>
+        <p>The Dogs API was made by dog.ceo, you could 
+          buy the author a dog treat via this link https://www.paypal.com/paypalme/dogapi, 
+          you could also view the project on Github via this link 
+          https://github.com/ElliottLandsborough/dog-ceo-api
+        </p>
+      </div>
+      <div class="footer-sectionB">
+        <div>Popular</div>
+        <div>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+        </div>
+      </div>
+      <div class="footer-sectionB">
+        <div>Breeds</div>
+        <div>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+      </div>
+      </div>
+      <div class="footer-sectionB">
+        <div>Join Newsletter</div>
+      </div>
+    </div>
    </div>
    <script src="./src/js/index.js"></script>
 </body>
